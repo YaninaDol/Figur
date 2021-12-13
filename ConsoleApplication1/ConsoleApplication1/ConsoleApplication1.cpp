@@ -11,7 +11,7 @@ int main()
    /* Rectangle A = k + l;
     A.print();*/
 
-    Rectangle B = k - l;
-    B.print();
+   /* Rectangle B = k - l;
+    B.print();*/
 }
 
