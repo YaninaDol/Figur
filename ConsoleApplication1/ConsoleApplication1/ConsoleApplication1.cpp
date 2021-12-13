@@ -5,6 +5,12 @@
 
 int main()
 {
-  
+    Square k(10, 10);
+    Line l(22);
+
+    Rectangle A = k + l;
+    A.print();
+
+   
 }
 
