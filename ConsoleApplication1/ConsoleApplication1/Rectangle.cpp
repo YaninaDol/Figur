@@ -26,5 +26,5 @@ float Rectangle::getDlina()
 
 void Rectangle::print()
 {
-	std::cout << " h: " << this->h << "\t dlina: " << this->dlina << "\t";
+	std::cout << "Rectangle  h: " << this->h << "\t dlina: " << this->dlina << "\t";
 }
