@@ -9,6 +9,12 @@ public:
 	Circle();
 	Circle(float DIAMETR);
 	
+	Monet operator+(Square size)
+	{
+		return Monet(this->diamentr, size.getSize());
+	}
+
 	float geCircle();
+
 };
 

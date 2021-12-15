@@ -2,22 +2,16 @@
 
 Square::Square()
 {
-	h = 0;
-	dlina = 0;
+	size = 0.0;
 }
 
-Square::Square(float H, float DLINA)
+Square::Square(float nsize)
 {
-	h = H;
-	dlina = DLINA;
+	size = nsize;
 }
 
-float Square::getH()
+float Square::getSize()
 {
-	return this->h;
+	return this->size;
 }
 
-float Square::getDlina()
-{
-	return this->dlina;
-}

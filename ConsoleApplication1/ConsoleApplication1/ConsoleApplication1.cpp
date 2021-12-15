@@ -1,28 +1,26 @@
 #include <iostream>
-#include "Figure.h"
-#include "Rectangle.h"
-#include "Line.h"
 #include "Circle.h"
-#include "Monet.h"
-#include "wash_mash.h"
 
 int main()
 {
-    Square k(10, 10);
+    Square k(10);
     Line l(22);
     Rectangle A = k + l;
     A.print();
+   std:: cout << "\n";
 
-    Square kub(10, 5);
+    Square kvadrat(10);
     Line line(5);
+    Rectangle B = kvadrat- line;
+    B.print();
 
-   /* Rectangle B = kub - line;
-    B.print();*/
-
-   
+    std::cout << "\n";
     Circle C(10);
-    Monet japan (C,kub);
+    Square K(5);
+    Monet japan = C + K;
     japan.print();
+
+  
     
 }
 

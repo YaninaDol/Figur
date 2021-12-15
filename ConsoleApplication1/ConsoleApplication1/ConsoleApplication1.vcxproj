@@ -145,7 +145,6 @@
     <ClCompile Include="Line.cpp" />
     <ClCompile Include="Monet.cpp" />
     <ClCompile Include="Rectangle.cpp" />
-    <ClCompile Include="wash_mash.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Circle.h" />
@@ -153,7 +152,6 @@
     <ClInclude Include="Line.h" />
     <ClInclude Include="Monet.h" />
     <ClInclude Include="Rectangle.h" />
-    <ClInclude Include="wash_mash.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

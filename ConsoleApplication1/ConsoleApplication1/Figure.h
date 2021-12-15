@@ -5,22 +5,19 @@
 class Square
 {
 private:
-	float h;
-	float dlina;
+	float size;
 
 public:
 	Square();
-	Square(float H, float DLINA);
-	float getH();
-	float getDlina();
-
+	Square(float nsize);
+	float getSize();
 
 	Rectangle operator+(Line other) {
-		return Rectangle(this->h,this->dlina+other.getLine());
+		return Rectangle(this->size,this->size+other.getLine());
 	}
 
 	Rectangle operator-(Line other) {
-		return Rectangle(this->h, this->dlina - other.getLine());
+		return Rectangle(this->size, this->size - other.getLine());
 	}
 
 	

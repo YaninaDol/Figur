@@ -1,16 +1,15 @@
 #pragma once
-#include "Circle.h"
+
 #include "Figure.h"
 #include <iostream>
 
 class Monet
 {
 	private:
-		Circle* circle;
-		Square* kub;
-
+		float circle_d;
+		float square_s;
 	public:
-		Monet(Circle& C, Square& K);
+		Monet(float circle_diametr, float square_size);
      	void print();
 
 };
