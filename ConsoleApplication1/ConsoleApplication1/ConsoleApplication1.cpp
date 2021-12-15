@@ -3,7 +3,7 @@
 
 int main()
 {
-    Square k(10);
+   /* Square k(10);
     Line l(22);
     Rectangle A = k + l;
     A.print();
@@ -26,7 +26,24 @@ int main()
     Square *kv= new Square(10);
      Wash_mash W = ci + kv ;
      W.print();
-  
-    
+  */
+
+     Square other(10);
+
+     std::cout << other;
+
+     std::cout << "Enter new size";
+     std::cin >> other;
+     std::cout << "New ";
+     std::cout << other;
+
+     Circle krug(5);
+     std::cout << krug;
+
+     std::cout << "Enter new diametr";
+     std::cin >> krug;
+     std::cout << "New ";
+     std::cout << krug;
+
 }
 
