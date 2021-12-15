@@ -8,5 +8,5 @@ Monet::Monet(float circle_diametr, float square_size)
 
 void Monet::print()
 {
-	std::cout <<" Monet: circle "<< this->circle_d << "\t square  size " << this->square_s ;
+	std::cout <<"Monet: circle "<< this->circle_d << "\t square  size " << this->square_s ;
 }

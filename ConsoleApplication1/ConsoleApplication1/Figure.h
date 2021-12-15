@@ -2,6 +2,8 @@
 #include "Rectangle.h"
 #include "Line.h"
 
+
+
 class Square
 {
 private:
@@ -19,7 +21,7 @@ public:
 	Rectangle operator-(Line other) {
 		return Rectangle(this->size, this->size - other.getLine());
 	}
-
+	
 	
 };
 

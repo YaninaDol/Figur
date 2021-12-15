@@ -33,6 +33,9 @@
     <ClCompile Include="Monet.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Wash_mash.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Figure.h">
@@ -48,6 +51,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Monet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Wash_mash.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

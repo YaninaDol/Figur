@@ -20,6 +20,12 @@ int main()
     Monet japan = C + K;
     japan.print();
 
+    std::cout << "\n";
+
+    Circle ci(5);
+    Square *kv= new Square(10);
+     Wash_mash W = ci + kv ;
+     W.print();
   
     
 }

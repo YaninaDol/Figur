@@ -9,6 +9,7 @@ class Monet
 		float circle_d;
 		float square_s;
 	public:
+
 		Monet(float circle_diametr, float square_size);
      	void print();
 
